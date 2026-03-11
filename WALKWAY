@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WalkWay Kakuma | Step Into Light. Walk in Truth.</title>
+
+<style>
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background: #f4f7fb;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: #0b3d5c;
+    color: white;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background: #1d3557;
+    color: white;
+    padding: 120px 10%;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    max-width: 750px;
+    margin: auto;
+    font-size: 18px;
+}
+
+.btn {
+    background: #ffb703;
+    color: black;
+    padding: 12px 25px;
+    margin-top: 25px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+section {
+    padding: 60px 10%;
+    background: white;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.card {
+    background: #f8f9fc;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.card h3 {
+    margin-top: 0;
+    color: #1d3557;
+}
+
+.mission {
+    background: #eef3f9;
+    text-align: center;
+}
+
+footer {
+    background: #0b3d5c;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>WalkWay Kakuma</h1>
+<nav>
+<a href="#">Home</a>
+<a href="#about">About</a>
+<a href="#activities">Ministry</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<section class="hero">
+<h2>Step Into Light. Walk in Truth.</h2>
+<p>
+WalkWay Kakuma is a Christ-centered outreach ministry serving Kakuma and Kalobeyei refugee communities. We bring hope, discipleship, and support through evangelism, home visits, prayer gatherings, children outreach, and care for the sick and vulnerable.
+</p>
+<a class="btn" href="#about">Learn More</a>
+</section>
+
+<section id="about">
+<div class="section-title">
+<h2>About WalkWay Kakuma</h2>
+</div>
+<p style="max-width:800px;margin:auto;text-align:center;">
+WalkWay Kakuma is dedicated to walking alongside individuals and families facing hardship, restoring faith, and sharing the love of Christ. Through structured outreach and community engagement, we help people experience transformation and hope even in challenging circumstances.
+</p>
+</section>
+
+<section class="mission">
+<div class="section-title">
+<h2>Our Mission</h2>
+</div>
+<p style="max-width:800px;margin:auto;">
+To lead people to Christ and strengthen communities through prayer, discipleship, outreach, and compassionate service.
+</p>
+</section>
+
+<section id="activities">
+<div class="section-title">
+<h2>Our Ministry Activities</h2>
+</div>
+
+<div class="grid">
+
+<div class="card">
+<h3>Home Visitation & Spiritual Encouragement</h3>
+<p>Visiting families to pray, encourage believers, restore those who have backslidden, and share the Gospel with those who have not yet known Christ.</p>
+</div>
+
+<div class="card">
+<h3>Community Prayer Gatherings</h3>
+<p>Organizing prayer sessions in churches, schools, and community locations to worship, intercede, and strengthen faith.</p>
+</div>
+
+<div class="card">
+<h3>Children & School Outreach</h3>
+<p>Engaging children through outreach programs in schools and communities, providing biblical teaching, mentorship, and encouragement.</p>
+</div>
+
+<div class="card">
+<h3>Prayer for the Sick & Vulnerable</h3>
+<p>Visiting and praying for individuals who are sick, struggling, or vulnerable, bringing hope and spiritual support.</p>
+</div>
+
+<div class="card">
+<h3>Evangelism & Discipleship</h3>
+<p>Sharing the Gospel through personal mentorship, outreach, and community engagement, helping individuals grow in faith.</p>
+</div>
+
+<div class="card">
+<h3>Youth Engagement & Community Support</h3>
+<p>Engaging young people and community members through activities that promote purpose, faith, and community cohesion.</p>
+</div>
+
+</div>
+</section>
+
+<section id="contact">
+<div class="section-title">
+<h2>Contact & Partnerships</h2>
+</div>
+<p style="text-align:center;max-width:700px;margin:auto;">
+WalkWay Kakuma welcomes partnerships with churches, organizations, and individuals who share a passion for bringing hope and the message of Christ to Kakuma and Kalobeyei communities.
+</p>
+
+<div style="text-align:center;margin-top:30px;">
+<p><strong>WalkWay Kakuma Outreach Ministry</strong></p>
+<p>
+📍 Kakuma Refugee Camp & Kalobeyei Settlement<br>
+Turkana County, Kenya
+</p>
+<p>
+<strong>Coordinator</strong><br>
+Daniel C. Anthony
+</p>
+<p>
+📞 Phone / WhatsApp: +254 0119 654 480
+</p>
+<p>
+📩 Facebook Page: WalkWay Kakuma
+</p>
+</div>
+</section>
+
+<footer>
+<p><strong>WalkWay Kakuma</strong></p>
+<p>Christ-Centered Community Outreach</p>
+<p>Step Into Light. Walk in Truth.</p>
+</footer>
+
+</body>
+</html>
